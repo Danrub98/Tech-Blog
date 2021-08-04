@@ -1,0 +1,241 @@
+
+  /* Styles go here */
+
+  p{
+    font-family: 'Newsreader', serif;
+    font-family: 'Playfair Display', serif;
+    margin: 1px;
+  }
+  
+  .hr{
+    /* position: relative;*/
+    width: 40%;
+    border-top: 3px solid;
+    border-bottom: none;
+    margin: auto;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .navbar{
+      display: flex;
+      justify-items: right ;
+      text-align: right;
+      margin-left: 200px;
+  }
+
+hr{
+    width: 90%;
+    border-top: 3px solid;
+    border-bottom: none;
+    margin: auto;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color:snow;
+  }
+
+
+
+
+.mainHeader{
+    background-color: #753422;
+    padding-top: 10px;
+    display: flex
+};
+
+.tags{
+    display: flex;
+    flex-direction:column;
+    left: 50px;
+    
+}
+
+.mainHeader nav ul li{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 2.5;
+    margin-top: 5px;
+    font-family: 'Newsreader', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+footer div ul li{
+    display: flex;
+    flex-flow:column;
+    justify-content: flex-end;
+    margin-left: 1.3rem;
+    list-style: none;
+}
+
+.no-button{
+    margin-top: 1rem;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 30px;
+    color: black;
+    font-family: Garamond;
+    font-size: 20px;
+    font-weight: 150;
+    padding: 5px;
+    background-color: #F2DAC3;
+    border: solid #F2DAC3 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    bottom: 20px;
+}
+.no-button:hover {
+    background: #1E62D0;
+    border: solid #66BFBF 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+.btn {
+    margin-top: 1rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: black;
+    font-family: Garamond;
+    font-size: 25px;
+    font-weight: 150;
+    padding: 15px;
+    background-color: #F2DAC3;
+    border: solid #F2DAC3 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .btn:hover {
+    background: #1E62D0;
+    border: solid #66BFBF 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .footer{
+     background-color: #753422;
+     padding-bottom: 15px;
+     text-align: center;
+     font-size: 1.4rem;
+ }
+
+
+
+.information{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.hr1{
+    width: 40%;
+    border-top: 3px dotted;
+    border-bottom: none;
+    margin: auto;
+    text-align: center;
+}
+
+
+ main{
+     background-color: #F1CA89;
+     padding-bottom: 20px;
+ }
+
+ .section{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ input{
+     border-radius: 2rem;
+ }
+
+ #submitbtn{
+    margin-top: 1rem;
+ }
+
+ #signupBtn{
+    margin-top: 1rem;
+ }
+.img2{
+    margin-top: 10px;
+    border-radius: 70px;
+}
+
+ .img1{
+     margin-top: 5px;
+     border-radius: 5rem;
+     text-align: center;
+ }
+
+ .posts{
+     display: flex;
+     flex-direction:column;
+     margin-left: 25px;
+     margin-right: 50px;
+     margin-bottom: 30px;
+     border-style: solid;
+
+ }
+
+ #postTitle{
+     display: inline-block;
+     padding-right: 50%;
+     background-color: #CDBBA7;
+     text-align:left;
+ }
+
+ .post{
+     background-color: #DAD0C2;
+     padding-right: 50%;
+     display:inline-block;
+
+ }
+
+ .titles{
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content:space-evenly;
+     margin-right: 80px;
+ }
+
+#newPostTitle{
+padding-right: 60%;
+}
+
+#newPostContent{
+    padding-right: 44%;
+    padding-bottom: 5% ;
+}
+
+.none{
+    display: none;
+}
+ 
+ 
+
+ 

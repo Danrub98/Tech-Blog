@@ -1,0 +1,52 @@
+
+<h1>Welcome to the Tech-Blog!</h1>
+
+<section class="information">
+    <h2>Why this project was created?</h2> <br>
+    <p>This project was created with the idea of helping programmers to have a place where they can discuss several subjects,
+      such as tips, recomendations or simple ideas of the coding world!
+    </p>
+     <h2>How to use the Tech-Blog?</h2>
+  <p>Login to contribute! You can create an account for free and start blogging</p>
+  <br>
+    
+</section>
+
+<hr class="hr1">
+<h1>This are the current Posts</h1>
+
+<section>
+{{#each posts as |post|}}
+<div class="posts">
+    <div id="postTitle">
+    <h2 >{{post_title}} </h2> 
+    </div>
+    <div class="post">
+   <p > {{post_information}}</h2> 
+   </div>
+  </div>
+{{/each}}
+
+
+</section>
+
+
+{{!-- {{#each products as |product|}}
+<div class="financial_products">
+  <h2>
+    {{{category_name}}}
+  </h2>
+  <h2>
+    {{{ticker_symbol}}}
+  </h2>
+  <h2>
+    {{{capitalization}}}
+  </h2>
+  <h2>
+    {{{circulating_stocks}}}
+  </h2>
+  <h2>
+    {{{stock_price}}}
+  </h2>
+</div>
+{{/each}} --}}
